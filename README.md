@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 前两者默认取值分别为weight和text_and_image
 
-另外的，为了防止后续生成的文件更改所递交的预测文件，预测生成文件并非test_without_label.txt，而是predict1.txt。即正确率评判标准不以predict1.txt评判！！！
+另外的，为了防止后续生成的文件更改所递交的预测文件，即时的预测生成文件并非test_without_label.txt，而是predict1.txt。正确率评判标准以test_without_label.txt评判！！！
 
 ##References
 - https://github.com/abhimishra91/transformers-tutorials
